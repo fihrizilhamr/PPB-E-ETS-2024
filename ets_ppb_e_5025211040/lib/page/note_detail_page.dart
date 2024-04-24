@@ -44,7 +44,7 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
     appBar: AppBar(
       backgroundColor: Colors.grey[900],
       title: Text(
-        'Note ${note.id}',
+        'Film ${note.id}',
         style: TextStyle(
           fontSize: 24,
           color: Colors.red[400],
@@ -68,8 +68,8 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            height: 100.0,
-            width: 100.0,
+            height: 300.0,
+            width: 300.0,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: Colors.grey.shade200,
@@ -83,7 +83,7 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
               // )
                   : CircleAvatar(
                 backgroundImage: NetworkImage(note.image),
-                radius: 100.0,
+                radius: 300.0,
               ),
             ),
           ),

@@ -37,7 +37,7 @@ CREATE TABLE $tableNotes (
   ${NoteFields.title} $textType,
   ${NoteFields.description} $textType,
   ${NoteFields.image} $textType,
-  ${NoteFields.time} $textType,
+  ${NoteFields.time} $textType
   )
 ''');
   }

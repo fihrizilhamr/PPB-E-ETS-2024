@@ -34,6 +34,10 @@ class NoteCardWidget extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            CircleAvatar(
+              backgroundImage: NetworkImage(note.image),
+              radius: 50.0,
+            ),
             Text(
               time,
               style: TextStyle(color: Colors.grey.shade700),
